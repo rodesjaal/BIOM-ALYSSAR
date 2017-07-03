@@ -25,5 +25,23 @@ namespace BIOM_ALYSSAR
             ee.Show();
 
         }
+
+        private void attendanceToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+            this.Hide();
+            ClockIn clock = new ClockIn();
+            clock.Show();
+
+        }
+
+        private void attendanceTimeOutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            this.Hide();
+            ClockOut clock = new ClockOut();
+            clock.Show();
+
+        }
     }
 }

@@ -80,12 +80,14 @@
             this.attendanceToolStripMenuItem1.Name = "attendanceToolStripMenuItem1";
             this.attendanceToolStripMenuItem1.Size = new System.Drawing.Size(264, 30);
             this.attendanceToolStripMenuItem1.Text = "Attendance Time In";
+            this.attendanceToolStripMenuItem1.Click += new System.EventHandler(this.attendanceToolStripMenuItem1_Click);
             // 
             // attendanceTimeOutToolStripMenuItem
             // 
             this.attendanceTimeOutToolStripMenuItem.Name = "attendanceTimeOutToolStripMenuItem";
             this.attendanceTimeOutToolStripMenuItem.Size = new System.Drawing.Size(264, 30);
             this.attendanceTimeOutToolStripMenuItem.Text = "Attendance Time Out";
+            this.attendanceTimeOutToolStripMenuItem.Click += new System.EventHandler(this.attendanceTimeOutToolStripMenuItem_Click);
             // 
             // Home
             // 

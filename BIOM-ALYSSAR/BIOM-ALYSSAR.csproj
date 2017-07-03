@@ -85,6 +85,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppData.cs" />
+    <Compile Include="ClockIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClockIn.Designer.cs">
+      <DependentUpon>ClockIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClockOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClockOut.Designer.cs">
+      <DependentUpon>ClockOut.cs</DependentUpon>
+    </Compile>
     <Compile Include="Enrolment.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +126,12 @@
     <Compile Include="Model.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ClockIn.resx">
+      <DependentUpon>ClockIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClockOut.resx">
+      <DependentUpon>ClockOut.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Enrolment.resx">
       <DependentUpon>Enrolment.cs</DependentUpon>
     </EmbeddedResource>
